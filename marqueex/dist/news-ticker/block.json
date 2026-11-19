@@ -1,0 +1,105 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "marqueex/news-ticker",
+  "version": "0.0.1",
+  "title": "News Ticker",
+  "category": "marqueex",
+  "description": "A horizontal news ticker with a fixed label badge and scrolling headlines. Pull titles from posts or enter custom messages.",
+  "keywords": [
+    "news",
+    "ticker",
+    "marquee",
+    "breaking",
+    "headline",
+    "scroll",
+    "posts"
+  ],
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string",
+      "default": "posts"
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "text": "Breaking news: Your first headline here…",
+          "url": "",
+          "isExternal": false,
+          "nofollow": false
+        },
+        {
+          "text": "Latest update: Your second headline here…",
+          "url": "",
+          "isExternal": false,
+          "nofollow": false
+        },
+        {
+          "text": "Important announcement: Your third headline here…",
+          "url": "",
+          "isExternal": false,
+          "nofollow": false
+        }
+      ]
+    },
+    "query": {
+      "type": "object",
+      "default": {
+        "postType": "post",
+        "postsPerPage": 8,
+        "orderby": "date",
+        "order": "desc",
+        "categoryIds": [],
+        "openInNewTab": false
+      }
+    },
+    "label": {
+      "type": "object",
+      "default": {
+        "show": true,
+        "text": "BREAKING",
+        "tag": "span"
+      }
+    },
+    "separator": {
+      "type": "object",
+      "default": {
+        "type": "text",
+        "text": "•"
+      }
+    },
+    "options": {
+      "type": "object",
+      "default": {
+        "speed": 30,
+        "reverse": false,
+        "pauseOnHover": true,
+        "itemSpacing": 2
+      }
+    },
+    "style": {
+      "type": "object",
+      "default": {}
+    },
+    "labelStyle": {
+      "type": "object",
+      "default": {},
+      "selector": ".marqueex-ticker-label"
+    }
+  },
+  "textdomain": "marqueex",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php",
+  "supports": {
+    "className": true,
+    "html": false,
+    "align": true
+  }
+}

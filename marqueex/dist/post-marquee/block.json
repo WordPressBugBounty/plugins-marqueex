@@ -1,0 +1,69 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "marqueex/post-marquee",
+  "version": "0.0.1",
+  "title": "Post Marquee",
+  "category": "marqueex",
+  "description": "A smooth, infinitely scrolling marquee of post cards — featured image, category, title and meta pulled dynamically from your posts.",
+  "keywords": [
+    "post",
+    "marquee",
+    "blog",
+    "grid",
+    "carousel",
+    "scroll",
+    "slider"
+  ],
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "query": {
+      "type": "object",
+      "default": {
+        "postType": "post",
+        "postsPerPage": 8,
+        "orderby": "date",
+        "order": "desc",
+        "categoryIds": []
+      }
+    },
+    "options": {
+      "type": "object",
+      "default": {
+        "speed": 60,
+        "reverse": false,
+        "vertical": false,
+        "pauseOnHover": false,
+        "itemSpacing": 1.5,
+        "showCategory": true,
+        "showTitle": true,
+        "showAuthor": true,
+        "showDate": true,
+        "globalLink": false,
+        "metaSeparator": "-"
+      }
+    },
+    "style": {
+      "type": "object",
+      "default": {}
+    },
+    "cardStyle": {
+      "type": "object",
+      "default": {},
+      "selector": ".marqueex-item-box"
+    }
+  },
+  "textdomain": "marqueex",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php",
+  "supports": {
+    "className": true,
+    "html": false,
+    "align": true
+  }
+}

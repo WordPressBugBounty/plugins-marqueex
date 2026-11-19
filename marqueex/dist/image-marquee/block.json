@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "marqueex/image-marquee",
+  "version": "0.0.1",
+  "title": "Image Marquee",
+  "category": "marqueex",
+  "description": "A smooth, infinitely scrolling image marquee. Use your own images or pull featured images dynamically from your posts.",
+  "keywords": [
+    "marquee",
+    "image",
+    "logo",
+    "gallery",
+    "scroll",
+    "carousel",
+    "slider"
+  ],
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string",
+      "default": "custom"
+    },
+    "items": {
+      "type": "array",
+      "default": []
+    },
+    "query": {
+      "type": "object",
+      "default": {
+        "postType": "post",
+        "postsPerPage": 8,
+        "orderby": "date",
+        "order": "desc",
+        "categoryIds": []
+      }
+    },
+    "options": {
+      "type": "object",
+      "default": {
+        "speed": 30,
+        "reverse": false,
+        "vertical": false,
+        "pauseOnHover": false,
+        "itemSpacing": 2,
+        "imageWidth": 150,
+        "imageHeight": 150,
+        "objectFit": "cover"
+      }
+    },
+    "style": {
+      "type": "object",
+      "default": {}
+    },
+    "imageStyle": {
+      "type": "object",
+      "default": {},
+      "selector": ".marqueex-image-item"
+    }
+  },
+  "textdomain": "marqueex",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php",
+  "supports": {
+    "className": true,
+    "html": false,
+    "align": true
+  }
+}

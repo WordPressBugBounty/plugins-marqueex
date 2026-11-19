@@ -1,0 +1,85 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "marqueex/text-marquee",
+  "version": "0.0.1",
+  "title": "Text Marquee",
+  "category": "marqueex",
+  "description": "A smooth, infinitely scrolling text marquee. Use your own custom messages or pull titles dynamically from your posts.",
+  "keywords": [
+    "marquee",
+    "ticker",
+    "text",
+    "scroll",
+    "news",
+    "announcement",
+    "headline"
+  ],
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string",
+      "default": "custom"
+    },
+    "items": {
+      "type": "array",
+      "default": [
+        {
+          "text": "Breaking news: Your first message here…",
+          "url": "",
+          "isExternal": false,
+          "nofollow": false
+        },
+        {
+          "text": "Latest update: Your second message here…",
+          "url": "",
+          "isExternal": false,
+          "nofollow": false
+        },
+        {
+          "text": "Important announcement: Your third message here…",
+          "url": "",
+          "isExternal": false,
+          "nofollow": false
+        }
+      ]
+    },
+    "query": {
+      "type": "object",
+      "default": {
+        "postType": "post",
+        "postsPerPage": 6,
+        "orderby": "date",
+        "order": "desc",
+        "categoryIds": []
+      }
+    },
+    "options": {
+      "type": "object",
+      "default": {
+        "speed": 30,
+        "reverse": false,
+        "vertical": false,
+        "pauseOnHover": false,
+        "itemSpacing": 2
+      }
+    },
+    "style": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "textdomain": "marqueex",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php",
+  "supports": {
+    "className": true,
+    "html": false,
+    "align": true
+  }
+}

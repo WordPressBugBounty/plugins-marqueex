@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('@marqueex/library', 'react', 'react-jsx-runtime', 'wp-block-editor', 'wp-blocks', 'wp-components', 'wp-data', 'wp-primitives'), 'version' => '962ae17e4b537783d6f5');

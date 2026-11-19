@@ -1,0 +1,3724 @@
+# Copyright (C) 2026 WPXERO
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MarqueeX – Smooth Marquee Slider, News Ticker & Post Marquee for Block Editor & Elementor 0.7.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/marqueex\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-12T17:09:14+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: marqueex\n"
+
+#. Plugin Name of the plugin
+#: marqueeX.php
+msgid "MarqueeX – Smooth Marquee Slider, News Ticker & Post Marquee for Block Editor & Elementor"
+msgstr ""
+
+#. Description of the plugin
+#: marqueeX.php
+msgid "Add a marquee, news ticker, logo carousel or scrolling post slider in Elementor or the block editor. 8 widgets, 5 blocks, lightweight CSS animation."
+msgstr ""
+
+#. Author of the plugin
+#: marqueeX.php
+msgid "WPXERO"
+msgstr ""
+
+#. Author URI of the plugin
+#: marqueeX.php
+msgid "https://wpxero.com"
+msgstr ""
+
+#: dist/image-marquee/render.php:132
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:38
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:876
+#: admin/marqueex-admin.js:1
+#: dist/image-marquee/index.js:1
+msgid "Image Marquee"
+msgstr ""
+
+#: dist/news-ticker/render.php:147
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:37
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1898
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:166
+#: admin/marqueex-admin.js:1
+#: dist/news-ticker/index.js:1
+msgid "News Ticker"
+msgstr ""
+
+#: dist/post-marquee/render.php:94
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:735
+msgctxt "Frontend"
+msgid "by"
+msgstr ""
+
+#: dist/post-marquee/render.php:143
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:26
+#: admin/marqueex-admin.js:1
+#: admin/marqueex-admin.js:17
+#: dist/post-marquee/index.js:3
+msgid "Post Marquee"
+msgstr ""
+
+#: dist/text-marquee/render.php:115
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:37
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1711
+#: admin/marqueex-admin.js:1
+#: dist/text-marquee/index.js:1
+msgid "Text Marquee"
+msgstr ""
+
+#: includes/Admin/Menu.php:47
+#: includes/Admin/Menu.php:48
+#: includes/Integrations/Elementor/ElementorIntegration.php:279
+#: admin/marqueex-admin.js:18
+msgid "MarqueeX"
+msgstr ""
+
+#: includes/Admin/Menu.php:63
+#: includes/Admin/Menu.php:64
+#: admin/marqueex-admin.js:6
+#: admin/marqueex-admin.js:17
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Admin/Menu.php:75
+#: includes/Admin/Menu.php:76
+msgid "Our Plugins"
+msgstr ""
+
+#: includes/Admin/ProNotice.php:109
+msgid "Your MarqueeX Pro license is not active yet."
+msgstr ""
+
+#: includes/Admin/ProNotice.php:110
+msgid "Install and activate MarqueeX Pro to switch on mouse wheel and drag-to-scroll, hand-picked posts and the extra animations on this site."
+msgstr ""
+
+#: includes/Admin/ProNotice.php:112
+msgid "Your marquees have been live for two weeks."
+msgstr ""
+
+#: includes/Admin/ProNotice.php:113
+msgid "Want visitors to play with them? MarqueeX Pro lets people spin the mouse wheel to speed up or reverse a marquee, or drag to scrub through it — plus hand-picked posts and extra heading animations."
+msgstr ""
+
+#: includes/Admin/ProNotice.php:122
+#: admin/marqueex-admin.js:12
+msgid "Compare Free vs Pro"
+msgstr ""
+
+#: includes/Admin/ProNotice.php:128
+msgid "Not now"
+msgstr ""
+
+#: includes/Admin/ProNotice.php:132
+msgid "Don't show again"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:45
+msgid "Interaction"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:46
+msgid "Custom and animated cursors that match a site full of motion. Live preview, no code."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:54
+msgid "Sliders"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:55
+msgid "Hero, image, post, logo and before/after slider blocks for when content should stop and be read."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:64
+msgid "Backgrounds"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:65
+msgid "Aurora, particles, silk and other animated backgrounds behind your marquees — site-wide or on one block."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:73
+msgid "Galleries"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:74
+msgid "Photo galleries, post grids and product grids with lightbox and masonry — the static partner to an image marquee."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:82
+msgid "360° & AR"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:83
+msgid "360° virtual tours, panoramas, 360° video and AR 3D models. Free, unlimited, no watermark."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:91
+msgid "Search"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:92
+msgid "Live AJAX search and a visual product filter builder for WooCommerce and any post type."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:101
+#: includes/Admin/Recommendations.php:184
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:102
+msgid "AI virtual try-on: shoppers upload a photo and see your clothing on themselves before buying."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:111
+msgid "Navigation"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:112
+msgid "A mobile menu and an app-style bottom navigation bar, with live preview."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:120
+msgid "Accessibility"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:121
+msgid "An accessibility toolbar with text size, contrast and reading profiles. No cookies, no external service."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:129
+msgid "Audio"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:130
+msgid "A Listen button that reads your posts aloud in natural voices. No API key, no account."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:138
+msgid "Maps"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:139
+msgid "A Google Maps block with custom markers, styles, directions and a store locator."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:148
+msgid "Embeds"
+msgstr ""
+
+#: includes/Admin/Recommendations.php:149
+msgid "Responsive YouTube, Vimeo and map embeds with captions, privacy mode and lazy-loading."
+msgstr ""
+
+#: includes/Admin/Recommendations.php:185
+msgid "the block editor"
+msgstr ""
+
+#: includes/Admin/ReviewRequest.php:170
+msgid "Enjoying MarqueeX?"
+msgstr ""
+
+#: includes/Admin/ReviewRequest.php:171
+msgid "You have had a marquee running for a week now. A short review on WordPress.org helps other people find the plugin — and tells us what to build next."
+msgstr ""
+
+#: includes/Admin/ReviewRequest.php:175
+msgid "Leave a review"
+msgstr ""
+
+#: includes/Admin/ReviewRequest.php:178
+msgid "Maybe later"
+msgstr ""
+
+#: includes/Admin/ReviewRequest.php:181
+msgid "Don't ask again"
+msgstr ""
+
+#: includes/Core/Settings.php:312
+msgid "No user to dismiss for."
+msgstr ""
+
+#: includes/Core/Settings.php:327
+msgid "User don't have permissions to change options."
+msgstr ""
+
+#: includes/Core/Settings.php:340
+msgid "User don't have permissions to view options."
+msgstr ""
+
+#: includes/Core/Settings.php:372
+msgid "Settings updated successfully."
+msgstr ""
+
+#: includes/Core/Settings.php:377
+msgid "Invalid settings data provided."
+msgstr ""
+
+#: includes/Core/Settings.php:437
+msgid "Invalid builder specified."
+msgstr ""
+
+#: includes/Core/Settings.php:458
+msgid "Elementor is not installed. Please install Elementor to use this integration."
+msgstr ""
+
+#: includes/Core/Settings.php:465
+msgid "Elementor is installed but not activated. Please activate Elementor to use this integration."
+msgstr ""
+
+#. translators: 1: detected Elementor version number, 2: required Elementor version number.
+#: includes/Core/Settings.php:480
+#, php-format
+msgid "Elementor version %1$s is too old. Please update to version %2$s or higher."
+msgstr ""
+
+#. translators: %s: detected Elementor version number.
+#: includes/Core/Settings.php:488
+#, php-format
+msgid "Elementor integration test successful. Version: %s"
+msgstr ""
+
+#: includes/Core/Settings.php:534
+msgid "Gutenberg integration is always available."
+msgstr ""
+
+#: includes/Core/Settings.php:552
+msgid "Shortcode integration is always available."
+msgstr ""
+
+#: includes/Core/Upsell.php:123
+#: admin/marqueex-admin.js:7
+msgid "Activate your license"
+msgstr ""
+
+#: includes/Core/Upsell.php:127
+msgid "Try Pro free"
+msgstr ""
+
+#: includes/Core/Upsell.php:128
+#: admin/marqueex-admin.js:15
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "See what Pro adds"
+msgstr ""
+
+#: includes/Core/Upsell.php:138
+msgid "You already have a license — activate MarqueeX Pro to switch this on."
+msgstr ""
+
+#: includes/Core/Upsell.php:142
+msgid "Free trial — no card required"
+msgstr ""
+
+#: includes/Core/Upsell.php:143
+msgid "From $59.99 · lifetime · 30-day refund"
+msgstr ""
+
+#: includes/Core/Upsell.php:229
+msgid "PRO"
+msgstr ""
+
+#. translators: %s: name of a Pro-only option in a dropdown.
+#: includes/Core/Upsell.php:299
+#, php-format
+msgid "%s (Pro)"
+msgstr ""
+
+#: includes/Integrations/Elementor/ElementorIntegration.php:99
+msgid "Scroll Interactions"
+msgstr ""
+
+#: includes/Integrations/Elementor/ElementorIntegration.php:105
+#: admin/marqueex-admin.js:12
+#: dist/image-marquee/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Let visitors drive the marquee"
+msgstr ""
+
+#: includes/Integrations/Elementor/ElementorIntegration.php:106
+msgid "Turn a strip that scrolls past people into one they can grab. Visitors spin the wheel to speed it up or reverse it, or drag it to scrub through — and it eases back to your set speed on its own."
+msgstr ""
+
+#: includes/Integrations/Elementor/ElementorIntegration.php:108
+#: admin/marqueex-admin.js:17
+msgid "Mouse wheel control with adjustable sensitivity"
+msgstr ""
+
+#: includes/Integrations/Elementor/ElementorIntegration.php:109
+msgid "Drag to scroll, with flick momentum on release"
+msgstr ""
+
+#: includes/Integrations/Elementor/ElementorIntegration.php:110
+msgid "Optional \"scroll sets direction\" mode"
+msgstr ""
+
+#: includes/Integrations/Elementor/ElementorIntegration.php:112
+msgid "Unlock scroll interactions"
+msgstr ""
+
+#. translators: 1: required Elementor version, 2: installed Elementor version
+#: includes/Integrations/Elementor/ElementorIntegration.php:154
+#, php-format
+msgid "MarqueeX needs Elementor %1$s or newer to add its widgets. You are running %2$s — the MarqueeX widgets will not appear in the Elementor panel until it is updated. The MarqueeX blocks in the block editor are unaffected."
+msgstr ""
+
+#: includes/Integrations/Elementor/ElementorIntegration.php:156
+msgid "an older version"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/AnimatedHeading.php:43
+#: admin/marqueex-admin.js:1
+msgid "Animated Heading"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/AnimatedWordRoller.php:38
+msgid "Animated Word Roller"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:80
+msgid "Images"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:88
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:80
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:88
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:80
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:88
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Content Type"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:92
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:92
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:92
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Dynamic Posts"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:93
+#: dist/image-marquee/index.js:1
+msgid "Custom Images"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:104
+msgid "Image Content"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:112
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:123
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:373
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:314
+#: dist/image-marquee/index.js:1
+msgid "Image"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:117
+msgid "Choose an image for the marquee."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:121
+msgid "Alt Text"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:124
+msgid "Enter alt text for accessibility."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:128
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:116
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:726
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:128
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:697
+msgid "Link"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:135
+msgid "Enter the link for the image."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:147
+msgid "Sample Image 1"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:158
+msgid "Sample Image 2"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:169
+msgid "Sample Image 3"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:182
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:435
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:186
+msgid "Item Spacing"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:223
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:165
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:224
+#: includes/Traits/PostQuery/PostQueryControls.php:61
+#: dist/post-marquee/index.js:3
+msgid "Query"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:234
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:176
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:235
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Post Type"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:244
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:186
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:245
+#: includes/Traits/PostQuery/PostQueryControls.php:68
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:255
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:197
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:256
+#: includes/Traits/PostQuery/PostQueryControls.php:177
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Order By"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:259
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:201
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:260
+#: includes/Traits/PostQuery/PostQueryControls.php:132
+#: includes/Traits/PostQuery/PostQueryControls.php:183
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Date"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:260
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:202
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:261
+#: includes/Traits/AnimatedHeading/TitleControls.php:18
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:26
+#: includes/Traits/AnimatedWordRoller/StyleControls.php:26
+#: includes/Traits/PostQuery/PostQueryControls.php:181
+#: dist/image-marquee/index.js:1
+#: dist/marqueex.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Title"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:261
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:203
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:262
+#: includes/Traits/PostQuery/PostQueryControls.php:188
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Random"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:262
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:204
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:263
+#: includes/Traits/PostQuery/PostQueryControls.php:186
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Menu Order"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:270
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:212
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:271
+#: includes/Traits/PostQuery/PostQueryControls.php:196
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Order"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:274
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:216
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:275
+#: includes/Traits/PostQuery/PostQueryControls.php:200
+#: dist/news-ticker/index.js:1
+msgid "ASC"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:275
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:217
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:276
+#: includes/Traits/PostQuery/PostQueryControls.php:201
+#: dist/news-ticker/index.js:1
+msgid "DESC"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:286
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:228
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:287
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Categories"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:305
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:473
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:181
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:126
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:141
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:433
+msgid "Marquee Settings"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:313
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:481
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:441
+#: includes/Traits/AnimatedHeading/AnimationControls.php:61
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Speed"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:332
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:460
+msgid "Direction Vertical"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:336
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:191
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:136
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:151
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:464
+#: dist/infinite-slider/index.js:1
+msgid "Horizontal"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:337
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:192
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:137
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:152
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:465
+#: dist/infinite-slider/index.js:1
+#: dist/post-marquee/index.js:3
+msgid "Vertical"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:345
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:501
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:227
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:172
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:187
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:472
+#: includes/Traits/AnimatedHeading/AnimationControls.php:160
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:80
+#: dist/post-marquee/index.js:3
+msgid "Pause on Hover"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:347
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:359
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:254
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:325
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:351
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:503
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:515
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:317
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:343
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:474
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:486
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:82
+msgid "Yes"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:348
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:360
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:255
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:326
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:352
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:504
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:516
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:318
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:344
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:475
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:487
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:83
+msgid "No"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:357
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:513
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:218
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:163
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:178
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:484
+#: dist/post-marquee/index.js:3
+msgid "Reverse Direction"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:384
+msgid "Image Width"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:412
+msgid "Image Height"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:441
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:547
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:953
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1246
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:518
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1016
+msgid "Border"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:449
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:555
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:961
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1254
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:421
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:600
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:255
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:361
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:526
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1024
+msgid "Border Radius"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:462
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:568
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:974
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1267
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:539
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1037
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:470
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:576
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:994
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1275
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:274
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:547
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1057
+msgid "Padding"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:482
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:588
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1287
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:559
+msgid "Margin"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:496
+#: dist/image-marquee/index.js:1
+msgid "Object Fit"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:500
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:25
+#: dist/image-marquee/index.js:1
+msgid "Fill"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:501
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:150
+#: dist/image-marquee/index.js:1
+msgid "Contain"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:502
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:149
+#: dist/image-marquee/index.js:1
+msgid "Cover"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:503
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:376
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:748
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:784
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:216
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:371
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:719
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:755
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+msgid "None"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:504
+#: dist/image-marquee/index.js:1
+msgid "Scale Down"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:515
+msgid "Object Position"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:519
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:121
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:172
+msgid "Center Center"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:520
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:171
+msgid "Center Left"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:521
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:173
+msgid "Center Right"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:522
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:169
+msgid "Top Center"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:523
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:119
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:168
+msgid "Top Left"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:524
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:120
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:170
+msgid "Top Right"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:525
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:122
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:175
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:526
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:117
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:174
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/ImageMarquee.php:527
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:123
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:176
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:93
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:93
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Custom Text"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:101
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:101
+msgid "Ticker Content"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:109
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:377
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:643
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:121
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:372
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:614
+#: includes/Traits/AnimatedHeading/TitleControls.php:32
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Text"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:111
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:123
+msgid "Breaking news: Your news content here..."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:112
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:124
+msgid "Enter the news content that will scroll in the ticker."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:123
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:135
+msgid "Enter the link for the news content."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:132
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:144
+msgid "Breaking news: Your first news content here..."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:140
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:156
+msgid "Latest update: Your second news content here..."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:148
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:168
+msgid "Important announcement: Your third news content here..."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:244
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1197
+#: dist/news-ticker/index.js:1
+msgid "Label"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:252
+msgid "Show Label"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:264
+msgid "Label Text"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:266
+msgid "BREAKING"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:276
+msgid "Label Icon"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:287
+msgid "Label HTML Tag"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:312
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:304
+msgid "Content Options"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:323
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:315
+msgid "Trim Title"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:335
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:327
+msgid "Title Length"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:349
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:341
+msgid "Open in New Tab"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:364
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:862
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:356
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:833
+#: dist/news-ticker/index.js:1
+msgid "Separator"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:372
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:367
+msgid "Separator Type"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:378
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:109
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:373
+msgid "Icon"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:408
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:403
+msgid "Separator Icon"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:423
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:418
+msgid "Separator Text"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:528
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:499
+msgid "Container"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:537
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:938
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1209
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:508
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1001
+msgid "Background"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:600
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:200
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:404
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:145
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:160
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:571
+#: dist/image-marquee/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Height"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:622
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:593
+msgid "Overflow"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:626
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:597
+msgid "Visible"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:627
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:598
+msgid "Hidden"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:628
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:599
+msgid "Scroll"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:629
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:600
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:148
+msgid "Auto"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:654
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:625
+msgid "Normal"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:660
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1218
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:345
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:450
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:490
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:519
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:548
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:631
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:58
+msgid "Text Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:688
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:659
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:707
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:678
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:733
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:704
+msgid "Link Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:744
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:780
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:715
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:751
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:749
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:785
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:720
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:756
+msgid "Underline"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:750
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:786
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:721
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:757
+msgid "Overline"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:751
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:787
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:722
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:758
+msgid "Line Through"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:761
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:732
+msgid "H O V E R"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:769
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:391
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:434
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:740
+#: includes/Traits/AnimatedWordRoller/StyleControls.php:64
+#: includes/Traits/AnimatedWordRoller/StyleControls.php:127
+msgid "Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:798
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1134
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:769
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1197
+msgid "Transition Duration"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:873
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:871
+msgid "Separator Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:897
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:895
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:916
+msgid "Icon Size"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:983
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1046
+#: includes/Traits/AnimatedHeading/TextStylesControls.php:71
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1006
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1069
+msgid "Opacity"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1024
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1087
+msgid "Backdrop Filter Blur"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1042
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1105
+msgid "Transform"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1044
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1107
+msgid "scale(1.1) rotate(5deg)"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1055
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1118
+msgid "Hover Effects"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1064
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:461
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1127
+msgid "Hover Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1077
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:581
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1140
+msgid "Hover Background"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1087
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1150
+msgid "Hover Border"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1096
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1159
+msgid "Hover Box Shadow"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1104
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1167
+msgid "Hover Transform"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1106
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1169
+msgid "translateY(-2px) scale(1.05)"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1116
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1179
+msgid "Hover Opacity"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1157
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1220
+msgid "Image Size"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1178
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:1241
+msgid "Image Border Radius"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1299
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:387
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:322
+msgid "Width"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1321
+msgid "Position"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1325
+msgid "Relative"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1326
+msgid "Absolute"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1327
+msgid "Sticky"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/NewsTicker.php:1338
+msgid "Z-Index"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:54
+msgid "Post Content"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:60
+#: dist/post-marquee/index.js:3
+msgid "Show Author"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:69
+#: dist/post-marquee/index.js:3
+msgid "Show Date"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:78
+#: dist/post-marquee/index.js:3
+msgid "Show Category"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:96
+msgid "Excerpt Word Limit"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:108
+#: dist/post-marquee/index.js:3
+msgid "Meta Separator"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:126
+msgid "Overlay"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:128
+msgid "Blury"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:129
+msgid "Lighten"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:135
+msgid "Content Position"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:145
+msgid "Content Style"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:153
+msgid "Card layout controls"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:154
+msgid "Place the title, date and category anywhere on the card, and pick how the text sits over the image."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:156
+msgid "Six content placements"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:157
+msgid "Overlay, Blury and Lighten text treatments"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:159
+msgid "Unlock card layouts"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:166
+msgid "Item Wrapper Link"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:169
+msgid "Be aware! When Item Wrapper Link activated then title link will not work"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:187
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:132
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:147
+msgid "Orientation"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:237
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:182
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:197
+msgid "Speed (px/s)"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:247
+#: includes/Traits/AnimatedWordRoller/StyleControls.php:111
+#: dist/infinite-slider/index.js:1
+msgid "Gap"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:267
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:203
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:218
+msgid "Soft Edge Mask"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:278
+msgid "Overlay & Effects"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:286
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:297
+msgid "Glassmorphism"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:299
+msgid "This feature will not work in the Firefox browser until you enable browser compatibility"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:310
+msgid "Blur Level"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:337
+msgid "Category"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:357
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:559
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:236
+msgid "Background Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:379
+msgid "Featured Image"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:442
+msgid "Post Title"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:482
+msgid "Meta (Author & Date)"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:511
+msgid "Excerpt"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:540
+msgid "Read More Button"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:570
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/PostMarquee.php:811
+msgid "Post Grid Marquee"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:24
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:560
+msgid "Team Members Marquee"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:51
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:92
+#: admin/marqueex-admin.js:1
+msgid "Team Members"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:61
+msgid "Choose Image"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:72
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:383
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:77
+msgid "Name"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:74
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:97
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:79
+msgid "John Doe"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:82
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:426
+msgid "Job Role"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:84
+msgid "Team Member"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:98
+msgid "CEO & Founder"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:101
+msgid "Jane Smith"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:102
+msgid "Lead Developer"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:105
+msgid "Mike Johnson"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:106
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:120
+msgid "Designer"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:192
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:207
+msgid "Gap (px)"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:212
+msgid "Image Effect"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:217
+msgid "Grayscale"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:228
+msgid "Team Member Box"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:286
+msgid "Content Alignment"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:290
+#: includes/Traits/AnimatedHeading/TitleControls.php:60
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:116
+msgid "Left"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:294
+#: includes/Traits/AnimatedHeading/TitleControls.php:64
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:120
+msgid "Center"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:298
+#: includes/Traits/AnimatedHeading/TitleControls.php:68
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:124
+msgid "Right"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:339
+#: includes/Integrations/Elementor/Widgets/TeamMembersMarquee.php:410
+msgid "Spacing"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:22
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:415
+msgid "Testimonial Marquee"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:48
+#: admin/marqueex-admin.js:1
+msgid "Testimonials"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:56
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:18
+#: includes/Traits/AnimatedWordRoller/StyleControls.php:19
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Content"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:58
+msgid "This is a testimonial text"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:66
+msgid "Avatar"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:86
+msgid "Role/Designation"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:88
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:114
+msgid "Project Manager"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:95
+msgid "Rating"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:107
+msgid "Testimonials List"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:112
+msgid "MarqueeX is the perfect tool for anyone using Elementor."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:113
+msgid "Wade Warren"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:118
+msgid "Amazing features and great support. Highly recommended!"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:119
+msgid "Sarah Johnson"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:229
+msgid "Card Style"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:238
+msgid "Card Background"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:247
+msgid "Content Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:258
+msgid "Name Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:269
+msgid "Role Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TestimonialMarquee.php:280
+msgid "Stars Color"
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:117
+msgid "Choose an icon to display before the text (optional)."
+msgstr ""
+
+#: includes/Integrations/Elementor/Widgets/TextMarquee.php:950
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:161
+msgid "MarqueeX Shortcodes"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:163
+msgid "Marquee Slider"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:169
+#: admin/marqueex-admin.js:1
+msgid "Infinite Slider"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:172
+msgid "Parameters:"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:174
+msgid "Animation speed (10-100)"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:175
+msgid "left, right, up, down"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:176
+msgid "true or false"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:177
+msgid "Label text for ticker (default: BREAKING)"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:178
+msgid "Show/hide label (true or false)"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:179
+msgid "Gap between items in pixels"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:180
+msgid "Additional CSS classes"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:181
+msgid "Custom ID attribute"
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:213
+msgid "Basic marquee slider with customizable speed and direction."
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:217
+msgid "News ticker with optional label and customizable settings."
+msgstr ""
+
+#: includes/Integrations/Shortcode/ShortcodeIntegration.php:221
+msgid "Infinite slider with configurable gap and hover pause."
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:19
+msgid "Animated Text Effect"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:26
+msgid "Outline"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:30
+#: dist/marqueex.js:1
+msgid "Gradient"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:31
+msgid "Image Masking"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:39
+msgid "Effect Type"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:47
+msgid "Gradient and image-masked text"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:48
+msgid "Pour a colour gradient through your headline, or show a photo through the letters themselves."
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:50
+msgid "Unlock these effects"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:73
+msgid "Outline Color"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:87
+msgid "Outline Width (px)"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:114
+msgid "Gradient Text"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:127
+msgid "Mask Image"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:144
+msgid "Mask Size"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:164
+msgid "Mask Position"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:188
+msgid "Cursor Color"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:200
+msgid "Cursor Width"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:223
+msgid "Line Color"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimatedTextEffectControls.php:235
+msgid "Line Width"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:18
+msgid "Animation Effect"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:25
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:55
+msgid "Slide"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:26
+msgid "Slide Horizontal"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:27
+msgid "Typing"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:31
+msgid "3D Rotation"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:32
+msgid "Construct"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:33
+msgid "Twist"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:34
+msgid "Line"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:35
+msgid "Wave"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:36
+msgid "Swing"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:37
+msgid "Tilt"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:38
+msgid "Lean"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:46
+msgid "Type"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:53
+msgid "8 more heading animations"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:54
+msgid "Give a headline motion people actually stop for, without writing a line of CSS."
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:56
+msgid "Unlock these animations"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:70
+msgid "Pause Between Words (sec)"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:82
+msgid "Pause After Typed (sec)"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:94
+msgid "Delay Per Word (sec)"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:106
+#: includes/Traits/AnimatedHeading/AnimationControls.php:119
+msgid "Slide Direction"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:113
+msgid "To Top"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:114
+msgid "To Bottom"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:126
+msgid "To Left"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:127
+msgid "To Right"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:132
+msgid "Line Type"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:139
+msgid "Single Underline"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:140
+msgid "Double Underline"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:141
+msgid "Wavy Underline"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:142
+msgid "Zigzag Underline"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:143
+msgid "Circle"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:148
+msgid "Delay Before Erase (sec)"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:165
+#: admin/marqueex-admin.js:12
+msgid "On"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/AnimationControls.php:166
+#: admin/marqueex-admin.js:12
+msgid "Off"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TextStylesControls.php:33
+msgid "Font Color"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TextStylesControls.php:47
+msgid "Typography"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TitleControls.php:24
+msgid "Before Text"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TitleControls.php:27
+msgid "Before text"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TitleControls.php:34
+msgid "Animated Text"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TitleControls.php:39
+msgid "Animated Texts"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TitleControls.php:49
+msgid "After Text"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TitleControls.php:52
+msgid "After text"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TitleControls.php:56
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:112
+msgid "Alignment"
+msgstr ""
+
+#: includes/Traits/AnimatedHeading/TitleControls.php:83
+msgid "HTML Tag"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:18
+msgid "Additional Options"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:26
+msgid "Active Word Duration"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:27
+msgid "Time each word stays active (in seconds)."
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:39
+msgid "Visible Words"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:49
+msgid "Vertical Scroll"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:53
+msgid "Horizontal Scroll"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:54
+msgid "Fade"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:56
+msgid "Zoom"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:62
+msgid "Animation Type"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:70
+msgid "4 more word transitions"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:71
+msgid "Roll words sideways, or swap them with a fade, slide or zoom instead of a vertical scroll."
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:73
+msgid "Unlock these transitions"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:94
+msgid "Visible Words Notice"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/AdditionalOptionsControls.php:95
+msgid "Please make sure to select an odd number that is less than or equal to the total number of words in your list."
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:28
+msgid "The Ultimate Solution for"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:29
+msgid "Type your title here"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:39
+msgid "Word"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:41
+msgid "Default title"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:42
+msgid "Type your word here"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:50
+msgid "Text Icon"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:64
+msgid "Word Lists"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:69
+msgid "Developers"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:72
+msgid "Designers"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:75
+msgid "Legal Experts"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:78
+msgid "Doctors"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:81
+msgid "Teachers"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:84
+msgid "Attorneys"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:94
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:98
+msgid "H1"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:99
+msgid "H2"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:100
+msgid "H3"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:101
+msgid "H4"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:102
+msgid "H5"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:103
+msgid "H6"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/ContentControls.php:104
+msgid "div"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/StyleControls.php:34
+msgid "Animated Words"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/StyleControls.php:85
+msgid "Icons"
+msgstr ""
+
+#: includes/Traits/AnimatedWordRoller/StyleControls.php:94
+msgid "Size"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:80
+#: dist/post-marquee/index.js:3
+msgid "Source"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:89
+#: dist/post-marquee/index.js:3
+msgid "Choose exactly which posts scroll"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:90
+msgid "Hand-pick the entries yourself, or narrow an automatic query down to the authors and categories you want — and keep the ones you do not out of it."
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:92
+msgid "Manual selection — pick posts one by one"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:93
+msgid "Include by author or taxonomy term"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:94
+msgid "Exclude specific posts, authors or terms"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:96
+msgid "Unlock the query builder"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:122
+msgid "Offset"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:136
+#: admin/marqueex-admin.js:17
+msgid "All"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:137
+msgid "Past Day"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:138
+msgid "Past Week"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:139
+msgid "Past Month"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:140
+msgid "Past Quarter"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:141
+msgid "Past Year"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:142
+msgid "Custom"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:151
+msgid "Before"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:153
+msgid "Setting a Before date will show all posts published until the chosen date (inclusive)."
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:164
+msgid "After"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:166
+msgid "Setting an After date will show all posts published since the chosen date (inclusive)."
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:182
+msgid "ID"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:184
+msgid "Author"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:185
+#: dist/post-marquee/index.js:3
+msgid "Comment Count"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:187
+msgid "Last Modified"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:209
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:220
+msgid "Only Featured Image Post"
+msgstr ""
+
+#: includes/Traits/PostQuery/PostQueryControls.php:221
+msgid "Enable to display posts only when featured image is present."
+msgstr ""
+
+#: includes/Utils/SeoImprovements.php:63
+msgid "Documentation for MarqueeX"
+msgstr ""
+
+#: includes/Utils/SeoImprovements.php:63
+#: admin/marqueex-admin.js:12
+#: admin/marqueex-admin.js:18
+msgid "Documentation"
+msgstr ""
+
+#: includes/Utils/SeoImprovements.php:64
+msgid "Support for MarqueeX"
+msgstr ""
+
+#: includes/Utils/SeoImprovements.php:64
+#: admin/marqueex-admin.js:18
+msgid "Support"
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Scrolling messages, typed in or pulled from post titles."
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Logo strips, client walls and image carousels."
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Breaking-news bar with a fixed label badge."
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Posts, pages or products as scrolling cards."
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Loop any content in a seamless slider."
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Headlines with an animated highlight word."
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Word Roller"
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Rotate words inside a sentence."
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Team photos, names and roles on a loop."
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Customer quotes that keep moving."
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Wheel & drag"
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+#: admin/marqueex-admin.js:17
+msgid "Hand-picked posts"
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Query filters"
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Card layouts"
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "8 animations"
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "Gradient & image text"
+msgstr ""
+
+#: admin/marqueex-admin.js:1
+msgid "4 transitions"
+msgstr ""
+
+#. translators: 1: a Pro feature name, 2: how many more.
+#: admin/marqueex-admin.js:2
+#, js-format
+msgid "%1$s +%2$d"
+msgstr ""
+
+#. translators: %s: list of Pro features.
+#: admin/marqueex-admin.js:3
+#, js-format
+msgid "Pro adds: %s. Compare Free vs Pro."
+msgstr ""
+
+#: admin/marqueex-admin.js:3
+#: admin/marqueex-admin.js:7
+#: admin/marqueex-admin.js:17
+#: admin/marqueex-admin.js:18
+#: dist/marqueex.js:1
+msgid "Pro"
+msgstr ""
+
+#: admin/marqueex-admin.js:3
+msgid "Interactive demo of Pro scroll interactions. Drag, scroll over it, or use the left and right arrow keys."
+msgstr ""
+
+#: admin/marqueex-admin.js:3
+msgid "Active"
+msgstr ""
+
+#: admin/marqueex-admin.js:3
+msgid "View"
+msgstr ""
+
+#: admin/marqueex-admin.js:3
+msgid "Install"
+msgstr ""
+
+#: admin/marqueex-admin.js:3
+msgid "Activate"
+msgstr ""
+
+#: admin/marqueex-admin.js:3
+msgid "Installing…"
+msgstr ""
+
+#: admin/marqueex-admin.js:3
+msgid "Activating…"
+msgstr ""
+
+#: admin/marqueex-admin.js:3
+msgid "Something went wrong. Try again from Plugins → Add New."
+msgstr ""
+
+#. translators: 1: action (Install/Activate), 2: plugin name.
+#: admin/marqueex-admin.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: %s: number of active installs, e.g. "3,000".
+#: admin/marqueex-admin.js:5
+#, js-format
+msgid "%s+ sites"
+msgstr ""
+
+#: admin/marqueex-admin.js:5
+msgid "Recommended for your site"
+msgstr ""
+
+#: admin/marqueex-admin.js:5
+msgid "Free plugins by WPXERO, the team behind MarqueeX — picked for what this site runs."
+msgstr ""
+
+#. translators: %d: number of plugins.
+#: admin/marqueex-admin.js:6
+#, js-format
+msgid "See all %d plugins"
+msgstr ""
+
+#: admin/marqueex-admin.js:6
+msgid "Getting started"
+msgstr ""
+
+#: admin/marqueex-admin.js:6
+msgid "Get your first marquee running"
+msgstr ""
+
+#. translators: %s: the current user's display name.
+#: admin/marqueex-admin.js:7
+#, js-format
+msgid "Welcome back, %s"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Welcome back"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Logo strips, announcement bars, news tickers and post carousels — in the editor you already use. It takes about a minute, and every widget and block is already switched on."
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Logo strips, announcement bars, news tickers and post carousels for the block editor and Elementor."
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Create a page"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Read the docs"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+#: admin/marqueex-admin.js:13
+msgid "Block editor"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Open the inserter and search \"marquee\"."
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+#: admin/marqueex-admin.js:13
+#: admin/marqueex-admin.js:15
+msgid "Elementor"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Search the widget panel for \"marquee\"."
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Install Elementor to use the 8 widgets."
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Got it — hide this"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Switched on"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Integration off"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Elementor not installed"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Overview"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Elementor widgets"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+#: admin/marqueex-admin.js:15
+msgid "Blocks"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Live on"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "page"
+msgid_plural "pages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/marqueex-admin.js:7
+msgid "Add your first marquee"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Published content using MarqueeX"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Plan"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+#: admin/marqueex-admin.js:17
+msgid "Free"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "All features unlocked"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Compare plans"
+msgstr ""
+
+#: admin/marqueex-admin.js:7
+msgid "Your toolkit"
+msgstr ""
+
+#. translators: 1: number of elements, 2: number switched on.
+#: admin/marqueex-admin.js:8
+#, js-format
+msgid "%1$d elements · %2$d switched on"
+msgstr ""
+
+#: admin/marqueex-admin.js:8
+msgid "Manage"
+msgstr ""
+
+#. translators: %s: list of Pro features.
+#: admin/marqueex-admin.js:9
+#, js-format
+msgid "Pro unlocked: %s"
+msgstr ""
+
+#. translators: %s: list of Pro features.
+#: admin/marqueex-admin.js:10
+#, js-format
+msgid "Pro adds: %s"
+msgstr ""
+
+#. translators: %s: builder name.
+#: admin/marqueex-admin.js:11
+#, js-format
+msgid "On in %s"
+msgstr ""
+
+#. translators: %s: builder name.
+#: admin/marqueex-admin.js:12
+#, js-format
+msgid "Off in %s"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Pro is active"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Everything is unlocked"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Scroll interactions, hand-picked posts, extra animations and card layouts are available in every widget and block."
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+#: admin/marqueex-admin.js:17
+msgid "MarqueeX Pro"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Your license is ready to switch on"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Go on — drag it"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Mouse wheel and drag-to-scroll"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+#: admin/marqueex-admin.js:17
+msgid "Hand-picked posts in any order"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "12 more heading animations"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Post card layouts and text effects"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Guides for every widget and block"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Support forum"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Ask a question, report a bug"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Rate MarqueeX"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "A review helps others find it"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "Resources"
+msgstr ""
+
+#: admin/marqueex-admin.js:12
+msgid "More plugins by WPXERO"
+msgstr ""
+
+#. translators: %d: number of plugins.
+#: admin/marqueex-admin.js:13
+#, js-format
+msgid "%d free plugins from the same team"
+msgstr ""
+
+#: admin/marqueex-admin.js:13
+msgid "Adds the MarqueeX blocks to the inserter — in posts, pages and Full Site Editing templates."
+msgstr ""
+
+#: admin/marqueex-admin.js:13
+msgid "blocks"
+msgstr ""
+
+#: admin/marqueex-admin.js:13
+msgid "Adds the MarqueeX widgets to the Elementor panel. Search the panel for \"marquee\" to find them."
+msgstr ""
+
+#: admin/marqueex-admin.js:13
+msgid "widgets"
+msgstr ""
+
+#. translators: 1: number switched on, 2: total, 3: "blocks" or "widgets".
+#: admin/marqueex-admin.js:14
+#, js-format
+msgid "%1$d of %2$d %3$s on"
+msgstr ""
+
+#. translators: %s: builder name.
+#: admin/marqueex-admin.js:15
+#, js-format
+msgid "%s integration"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Elementor is not installed or active, so these widgets are unavailable. Your choices below are kept for when it is."
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Off — nothing from MarqueeX is registered here, and no scripts or styles load for it."
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Choose which ones appear"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Enable all"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Disable all"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Mobile"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Mobile styles apply at this width and below."
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Tablet"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Tablet styles apply at this width and below."
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Desktop"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Reference width for the desktop controls."
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Included"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Not included"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Design & motion"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Content & media"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Store"
+msgstr ""
+
+#: admin/marqueex-admin.js:15
+msgid "Site tools"
+msgstr ""
+
+#. translators: %s: required plugin or feature, e.g. "WooCommerce".
+#: admin/marqueex-admin.js:16
+#, js-format
+msgid "Needs %s"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "The WPXERO plugin family"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "Build more with the team behind MarqueeX"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "Free plugins that share MarqueeX’s approach: lightweight, no watermark, no lock-in. One click installs from WordPress.org — nothing happens until you press the button."
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "Free plugins"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "Active sites"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "Price"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "$0"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "Most popular"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "active sites"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "Details"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "New"
+msgstr ""
+
+#: admin/marqueex-admin.js:16
+msgid "Details on WordPress.org"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: admin/marqueex-admin.js:17
+#, js-format
+msgid "%s on WordPress.org"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Elements"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Switch off anything you do not use. A switched-off element is not registered at all, and scripts and styles only ever load on pages that render a marquee."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Settings"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Site-wide behaviour for every marquee. The defaults suit most sites."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Responsive breakpoints"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "The widths MarqueeX uses for the Tablet and Mobile settings in the block editor. Match them to your theme so a marquee changes at the same point everything else does. Values outside 1–3000 px fall back to the default."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Search engines & page source"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Generate a meta description from marquee text"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "When a page has a marquee and no SEO plugin, MarqueeX builds a meta description from the text your marquees carry. With Yoast or Rank Math active it only fills in a description they left empty."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Credit MarqueeX in the page source"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Adds an HTML comment naming MarqueeX on pages that use it. Invisible to visitors, and entirely optional."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Activate Pro"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Free vs Pro"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Scroll interactions"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Visitors spin the mouse wheel to speed a marquee up or reverse it, or drag it to scrub through and flick it with momentum. It eases back to your set speed on its own — or let scrolling set the direction."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Text, Image, News Ticker and Post Marquee widgets · every block"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Search by title and choose exactly which posts, pages or products scroll — from any mix of post types — in the order you want."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Advanced query"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Include or exclude posts by author and by taxonomy term, so a marquee shows precisely the content you mean."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Post Marquee widget"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Post card layouts"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Six content placements plus Overlay, Blury and Lighten text treatments for scrolling post cards."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Headline animations"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Eight more Animated Heading animations — 3D Rotation, Construct, Twist, Line, Wave, Swing, Tilt and Lean — plus gradient and image-masked text."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Animated Heading widget"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Word Roller transitions"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Four more ways to swap words in a sentence: Horizontal, Fade, Slide and Zoom."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Word Roller widget"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "All 8 Elementor widgets and all 5 blocks"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Unlimited marquees on unlimited pages, no watermark"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Speed, direction, pause on hover, edge fade, responsive controls"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Posts, custom post types and WooCommerce products as a source"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Drag to scroll, with flick momentum"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "\"Scroll sets direction\" mode"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Author and taxonomy include/exclude (Elementor)"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Post Marquee card layouts and text treatments (Elementor)"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "8 more Animated Heading animations"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Gradient and image-masked heading text"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "4 more Word Roller transitions"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Do I have to rebuild my marquees?"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "No. Pro is an add-on that runs alongside the free plugin. It adds controls to the widgets and blocks you already use, so every marquee you have built keeps working and simply gains new options."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "What happens if my license ends?"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Nothing breaks. Without an active license a marquee falls back to its free behaviour — it keeps scrolling, it just stops responding to the wheel and drag, and Pro-only styles revert to their free defaults."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Does Pro work in both Elementor and the block editor?"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Scroll interactions and hand-picked posts work in both. The heading animations, Word Roller transitions, card layouts and advanced query are Elementor widget features."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "How do I install it after buying?"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Checkout happens inside your WordPress dashboard. Afterwards you install the MarqueeX Pro plugin, activate your license, and the Pro controls appear in your existing widgets and blocks."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Your Pro license is ready to switch on"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Turn marquees people scroll past into ones they play with"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Install and activate MarqueeX Pro to unlock everything below on this site."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Everything you build with the free plugin stays free. Pro adds interaction, control and polish on top — inside the widgets and blocks you already use."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Live Pro demo"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Drag it, or scroll over it"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "This is the real interaction your visitors get: wheel to speed up or reverse, drag to scrub, release to flick."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "What Pro adds"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Free vs Pro, side by side"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Free has no limits on how much you build. Pro adds the extras."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Feature"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Questions"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Switch Pro on for this site"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Give your visitors something to play with"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Our plugins"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "You already use every plugin we would suggest"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Thank you for building with WPXERO."
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Search plugins"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Search plugins…"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Filter by category"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Sort"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "Popular"
+msgstr ""
+
+#: admin/marqueex-admin.js:17
+msgid "For your site"
+msgstr ""
+
+#. translators: %d: number of plugins shown.
+#: admin/marqueex-admin.js:18
+#, js-format
+msgid "%d plugin"
+msgid_plural "%d plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/marqueex-admin.js:18
+msgid "No plugins match that"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Clear filters"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Failed to load settings"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Something went wrong, please, try again…"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Failed to test integration"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Testing…"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Test failed"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Unsaved changes"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "You have unsaved changes"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Discard"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Settings saved"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Could not save settings"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Saving…"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "Save changes"
+msgstr ""
+
+#: admin/marqueex-admin.js:18
+msgid "MarqueeX sections"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Descending"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Ascending"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "Add Image"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "Replace"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/marqueex.js:1
+#: dist/post-marquee/index.js:3
+msgid "Remove"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "Select Image"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "Alt text"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Link (optional)"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Open in new tab"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Add nofollow"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Posts"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "Only posts with a featured image are shown."
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Item Spacing (rem)"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Vertical direction"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Reverse"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Pause on hover"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Interactive Scrolling"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Enable mouse wheel control"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Spin the wheel over the marquee to speed up or reverse the scroll. Motion eases back to the set speed."
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Sensitivity"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Momentum"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Scroll sets direction"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Enable drag to scroll"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Press and drag the marquee to scrub it; release to flick with momentum that eases back to the set speed."
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Flick momentum"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "Let visitors spin the wheel over the logos to speed them up or reverse them, or drag to scrub through — the strip eases back to your set speed on its own."
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "Image Width (px)"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "Image Height (px)"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+#: dist/infinite-slider/index.js:1
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "Wrapper"
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "No posts with a featured image were found."
+msgstr ""
+
+#: dist/image-marquee/index.js:1
+msgid "Add an image to get started."
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "Direction"
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "Duration"
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "Spin the wheel over the slider to speed up or reverse the scroll. Motion eases back to the set speed."
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "How long the wheel boost lingers before easing back."
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "Scrolling reverses the marquee’s resting direction instead of easing back to the original."
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "Press and drag the slider to scrub it; release to flick with momentum that eases back to the set speed."
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "How long a flick keeps gliding before easing back."
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "Let visitors drive the slider"
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "Let visitors spin the wheel over the slider to speed it up or reverse it, or drag it to scrub through — it eases back to your set speed on its own."
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "Items"
+msgstr ""
+
+#: dist/infinite-slider/index.js:1
+msgid "Add Slide"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Sunrise"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Ocean"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Purple"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Sunset"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Night"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Search Icon"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Type to Search…"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Icon Output"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Customize Icon"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Reset"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "No icons found."
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Pros"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Why do you like the product?"
+msgstr ""
+
+#: dist/marqueex.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Add Item"
+msgstr ""
+
+#: dist/marqueex.js:1
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Item"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Drag to reorder"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Duplicate"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Collapse"
+msgstr ""
+
+#: dist/marqueex.js:1
+msgid "Expand"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Text / Symbol"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Open links in new tab"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Show label"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Label text"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "HTML tag"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Separator type"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Separator symbol"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Reverse direction"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Spin the wheel over the ticker to speed up or reverse the scroll."
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Press and drag the ticker to scrub it; release to flick with momentum."
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Let visitors drive the ticker"
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+msgid "Let readers spin the wheel over the ticker to move through headlines faster, or drag it to scrub back to one they missed."
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+#: dist/post-marquee/index.js:3
+#: dist/text-marquee/index.js:1
+msgid "No posts found for this query."
+msgstr ""
+
+#: dist/news-ticker/index.js:1
+#: dist/text-marquee/index.js:1
+msgid "Add an item to get started."
+msgstr ""
+
+#. translators: 1: number of selected posts, 2: maximum number of posts.
+#: dist/post-marquee/index.js:2
+#, js-format
+msgid "Selected (%1$d of %2$d)"
+msgstr ""
+
+#: dist/post-marquee/index.js:2
+msgid "Posts scroll in this order."
+msgstr ""
+
+#: dist/post-marquee/index.js:2
+msgid "Nothing selected yet — the marquee shows the latest entries until you pick some."
+msgstr ""
+
+#: dist/post-marquee/index.js:2
+#: dist/post-marquee/index.js:3
+msgid "(no title)"
+msgstr ""
+
+#. translators: %d: post ID.
+#: dist/post-marquee/index.js:3
+#, js-format
+msgid "#%d (unavailable)"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Move up"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Move down"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Add entries"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Search by title…"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Selection is full. Remove an entry to add another."
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Nothing matches that search."
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Nothing left to add in this post type."
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Latest entries"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Manual selection"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Manual selection (Pro)"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Hand-pick the posts, pages or products yourself and set the order they scroll in. Until then this marquee keeps showing the latest entries below."
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Search in"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Card Content"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Show Title"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Link Entire Card"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Marquee"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Card Spacing (rem)"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Let visitors spin the wheel over the cards to move through them faster, or drag to scrub back to a post they passed."
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "Card"
+msgstr ""
+
+#: dist/post-marquee/index.js:3
+msgid "by"
+msgstr ""
+
+#: dist/text-marquee/index.js:1
+msgid "Scrolling reverses the marquee’s resting direction instead of easing back."
+msgstr ""
+
+#: dist/text-marquee/index.js:1
+msgid "Let visitors spin the wheel over the marquee to speed it up or reverse it, or drag it to scrub through — it eases back to your set speed on its own."
+msgstr ""
+
+#: dist/image-marquee/block.json
+msgctxt "block title"
+msgid "Image Marquee"
+msgstr ""
+
+#: dist/image-marquee/block.json
+msgctxt "block description"
+msgid "A smooth, infinitely scrolling image marquee. Use your own images or pull featured images dynamically from your posts."
+msgstr ""
+
+#: dist/image-marquee/block.json
+#: dist/infinite-slider-item/block.json
+#: dist/infinite-slider/block.json
+#: dist/news-ticker/block.json
+#: dist/post-marquee/block.json
+#: dist/text-marquee/block.json
+msgctxt "block keyword"
+msgid "marquee"
+msgstr ""
+
+#: dist/image-marquee/block.json
+msgctxt "block keyword"
+msgid "image"
+msgstr ""
+
+#: dist/image-marquee/block.json
+msgctxt "block keyword"
+msgid "logo"
+msgstr ""
+
+#: dist/image-marquee/block.json
+msgctxt "block keyword"
+msgid "gallery"
+msgstr ""
+
+#: dist/image-marquee/block.json
+#: dist/infinite-slider-item/block.json
+#: dist/infinite-slider/block.json
+#: dist/news-ticker/block.json
+#: dist/post-marquee/block.json
+#: dist/text-marquee/block.json
+msgctxt "block keyword"
+msgid "scroll"
+msgstr ""
+
+#: dist/image-marquee/block.json
+#: dist/infinite-slider/block.json
+#: dist/post-marquee/block.json
+msgctxt "block keyword"
+msgid "carousel"
+msgstr ""
+
+#: dist/image-marquee/block.json
+#: dist/infinite-slider/block.json
+#: dist/post-marquee/block.json
+msgctxt "block keyword"
+msgid "slider"
+msgstr ""
+
+#: dist/infinite-slider-item/block.json
+msgctxt "block title"
+msgid "Slide Item"
+msgstr ""
+
+#: dist/infinite-slider-item/block.json
+msgctxt "block description"
+msgid "Individual slide item for the MarqueeX infinite slider. Add any content block inside for scrolling display."
+msgstr ""
+
+#: dist/infinite-slider-item/block.json
+msgctxt "block keyword"
+msgid "slide"
+msgstr ""
+
+#: dist/infinite-slider-item/block.json
+msgctxt "block keyword"
+msgid "item"
+msgstr ""
+
+#: dist/infinite-slider-item/block.json
+msgctxt "block keyword"
+msgid "content"
+msgstr ""
+
+#: dist/infinite-slider/block.json
+msgctxt "block title"
+msgid "Infinite Slider"
+msgstr ""
+
+#: dist/infinite-slider/block.json
+msgctxt "block description"
+msgid "Create smooth scrolling marquee content with customizable speed and direction. Perfect for news tickers, announcements, and promotional banners."
+msgstr ""
+
+#: dist/infinite-slider/block.json
+#: dist/news-ticker/block.json
+#: dist/text-marquee/block.json
+msgctxt "block keyword"
+msgid "ticker"
+msgstr ""
+
+#: dist/infinite-slider/block.json
+msgctxt "block keyword"
+msgid "animation"
+msgstr ""
+
+#: dist/infinite-slider/block.json
+msgctxt "block keyword"
+msgid "infinite"
+msgstr ""
+
+#: dist/infinite-slider/block.json
+#: dist/news-ticker/block.json
+#: dist/text-marquee/block.json
+msgctxt "block keyword"
+msgid "news"
+msgstr ""
+
+#: dist/infinite-slider/block.json
+msgctxt "block keyword"
+msgid "banner"
+msgstr ""
+
+#: dist/news-ticker/block.json
+msgctxt "block title"
+msgid "News Ticker"
+msgstr ""
+
+#: dist/news-ticker/block.json
+msgctxt "block description"
+msgid "A horizontal news ticker with a fixed label badge and scrolling headlines. Pull titles from posts or enter custom messages."
+msgstr ""
+
+#: dist/news-ticker/block.json
+msgctxt "block keyword"
+msgid "breaking"
+msgstr ""
+
+#: dist/news-ticker/block.json
+#: dist/text-marquee/block.json
+msgctxt "block keyword"
+msgid "headline"
+msgstr ""
+
+#: dist/news-ticker/block.json
+msgctxt "block keyword"
+msgid "posts"
+msgstr ""
+
+#: dist/post-marquee/block.json
+msgctxt "block title"
+msgid "Post Marquee"
+msgstr ""
+
+#: dist/post-marquee/block.json
+msgctxt "block description"
+msgid "A smooth, infinitely scrolling marquee of post cards — featured image, category, title and meta pulled dynamically from your posts."
+msgstr ""
+
+#: dist/post-marquee/block.json
+msgctxt "block keyword"
+msgid "post"
+msgstr ""
+
+#: dist/post-marquee/block.json
+msgctxt "block keyword"
+msgid "blog"
+msgstr ""
+
+#: dist/post-marquee/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr ""
+
+#: dist/text-marquee/block.json
+msgctxt "block title"
+msgid "Text Marquee"
+msgstr ""
+
+#: dist/text-marquee/block.json
+msgctxt "block description"
+msgid "A smooth, infinitely scrolling text marquee. Use your own custom messages or pull titles dynamically from your posts."
+msgstr ""
+
+#: dist/text-marquee/block.json
+msgctxt "block keyword"
+msgid "text"
+msgstr ""
+
+#: dist/text-marquee/block.json
+msgctxt "block keyword"
+msgid "announcement"
+msgstr ""
