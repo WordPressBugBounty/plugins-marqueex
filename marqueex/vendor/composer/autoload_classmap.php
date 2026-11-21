@@ -39,6 +39,7 @@ return array(
     'Wpxero\\Marqueex\\Traits\\MarqueeSource' => $baseDir . '/includes/Traits/MarqueeSource.php',
     'Wpxero\\Marqueex\\Traits\\PostQuery\\PostQueryControls' => $baseDir . '/includes/Traits/PostQuery/PostQueryControls.php',
     'Wpxero\\Marqueex\\Traits\\Singleton' => $baseDir . '/includes/Traits/Singleton.php',
+    'Wpxero\\Marqueex\\Utils\\Markup' => $baseDir . '/includes/Utils/Markup.php',
     'Wpxero\\Marqueex\\Utils\\MetaDescription' => $baseDir . '/includes/Utils/MetaDescription.php',
     'Wpxero\\Marqueex\\Utils\\SeoImprovements' => $baseDir . '/includes/Utils/SeoImprovements.php',
 );

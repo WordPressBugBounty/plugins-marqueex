@@ -115,6 +115,8 @@ class Enqueue {
                     // conversions can be told apart from the header button's.
                     'proPageUrl' => Upsell::url('admin-pro-page'),
                     'hasElementor' => class_exists('\\Elementor\\Plugin'),
+                    // Installed but inactive needs "Activate", not "Install".
+                    'elementorInstalled' => file_exists(WP_PLUGIN_DIR . '/elementor/elementor.php'),
                     'newPageUrl' => admin_url('post-new.php?post_type=page'),
                     // Dashboard greeting + "Live on" tile.
                     'userName' => wp_get_current_user()->display_name,

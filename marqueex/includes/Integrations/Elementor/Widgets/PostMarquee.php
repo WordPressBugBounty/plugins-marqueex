@@ -685,7 +685,8 @@ class PostMarquee extends Widget_Base {
 
         $image_src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'large');
         $placeholder = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjE4IiBmaWxsPSIjOTk5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+Tm8gSW1hZ2U8L3RleHQ+PC9zdmc+';
-        $image_src = $image_src ? $image_src[0] : $placeholder;
+        $has_image = (bool) $image_src;
+        $image_src = $has_image ? $image_src[0] : $placeholder;
 
         $categories = get_the_category($post->ID);
         $category_output = '';
@@ -701,7 +702,8 @@ class PostMarquee extends Widget_Base {
 ?>
         <<?php echo tag_escape($item_tag); ?> class="marqueex-item"<?php echo $use_global_link ? ' href="' . esc_url($permalink) . '"' : ''; ?>>
             <div class="marqueex-item-box">
-                <img class="marqueex-img" src="<?php echo esc_url($image_src); ?>" alt="<?php echo esc_attr(get_the_title($post->ID)); ?>">
+                <?php // The placeholder is a data: URI; plain esc_url() strips that protocol and empties src. ?>
+                <img class="marqueex-img" src="<?php echo esc_url($image_src, ['http', 'https', 'data']); ?>" alt="<?php echo $has_image ? esc_attr(get_the_title($post->ID)) : ''; ?>">
 
                 <div class="marqueex-content">
                     <?php if ($settings['show_category'] === 'yes' && !empty($category_output)) : ?>
@@ -827,7 +829,7 @@ class PostMarquee extends Widget_Base {
                     <?php echo $track_html; // phpcs:ignore WordPress.Security.EscapeOutput ?>
                 </div>
                 <div aria-hidden="true" class="marqueex-marquee-track">
-                    <?php echo $track_html; // phpcs:ignore WordPress.Security.EscapeOutput ?>
+                    <?php echo \Wpxero\Marqueex\Utils\Markup::unfocusable($track_html); // phpcs:ignore WordPress.Security.EscapeOutput ?>
                 </div>
             </div>
         </div>

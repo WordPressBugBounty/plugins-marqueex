@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'wpxero/marqueex',
-        'pretty_version' => '0.7.1',
-        'version' => '0.7.1.0',
-        'reference' => 'a520bb8c58e57004169de4a424be2f66ebbec3a0',
+        'pretty_version' => '0.7.2',
+        'version' => '0.7.2.0',
+        'reference' => 'b045170ab7125c1c6e8f34c19c819b82e57920f6',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'wpxero/marqueex' => array(
-            'pretty_version' => '0.7.1',
-            'version' => '0.7.1.0',
-            'reference' => 'a520bb8c58e57004169de4a424be2f66ebbec3a0',
+            'pretty_version' => '0.7.2',
+            'version' => '0.7.2.0',
+            'reference' => 'b045170ab7125c1c6e8f34c19c819b82e57920f6',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

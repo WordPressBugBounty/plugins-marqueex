@@ -613,6 +613,16 @@ class Settings extends \WP_REST_Controller {
                     $settings['compatibility']['responsive_breakpoints'][$device] = $int;
                 }
             }
+
+            // Mobile rules sit inside max-width:mobile and tablet rules inside
+            // max-width:tablet, so mobile must be the narrower one. A swapped
+            // pair would apply "mobile" styles to tablets and wider; fall back
+            // to the defaults rather than guess which value was meant.
+            $bp = $settings['compatibility']['responsive_breakpoints'];
+            if (isset($bp['mobile'], $bp['tablet']) && (int) $bp['mobile'] >= (int) $bp['tablet']) {
+                $settings['compatibility']['responsive_breakpoints']['mobile'] = $defaults['mobile'] ?? 480;
+                $settings['compatibility']['responsive_breakpoints']['tablet'] = $defaults['tablet'] ?? 1024;
+            }
         }
 
         return $settings;

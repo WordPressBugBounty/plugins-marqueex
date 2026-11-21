@@ -3,7 +3,7 @@ Contributors: wpxero
 Tags: marquee, news ticker, logo carousel, scrolling text, elementor
 Requires at least: 6.0
 Tested up to: 7.1
-Stable tag: 0.7.0
+Stable tag: 0.7.2
 Requires PHP: 7.4
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -206,6 +206,9 @@ Post in the plugin's support forum on WordPress.org, or read the [documentation]
 
 == Upgrade Notice ==
 
+= 0.7.2 =
+Fixes broken images in Post Marquee and keyboard access to marquee links. Safe to update.
+
 = 0.7.0 =
 A brand-new admin dashboard, Elements and Free vs Pro screens, and a save fix. Your marquees are unchanged — safe to update.
 
@@ -214,63 +217,74 @@ New logo and a clearer plugin description. No functional changes — safe to upd
 
 == Changelog ==
 
-#### 0.7.0 [November 12, 2026]
-- Added: A completely redesigned admin. MarqueeX now opens on a **Dashboard** with an overview of what is switched on, how many published pages use MarqueeX, and a gallery of every widget and block with a small live preview of each.
-- Added: An **Elements** screen for switching each builder and each widget or block on or off, with Enable all / Disable all, and a cleaner **Settings** screen for breakpoints and page-output options.
-- Added: A floating save bar that follows you between screens, with Discard (no reload needed) and a warning before you leave with unsaved changes.
-- Added: A **Free vs Pro** screen with a live demo of Pro's scroll interactions you can drag and scroll yourself, a side-by-side comparison and answers to common questions. Shown only while Pro is not active.
-- Added: An **Our Plugins** screen and a "Recommended for your site" card on the Dashboard, listing other free plugins from WPXERO. Each installs from WordPress.org through WordPress itself and only when you click — nothing is installed automatically, and plugins you already use are never suggested.
-- Added: A one-time note about MarqueeX Pro on the Plugins screen, two weeks after you first add a marquee. It can be snoozed once or dismissed for good.
-- Changed: The admin menu item is now **Dashboard**, with a new **Our Plugins** item beneath it.
-- Changed: Notices from other plugins and WordPress itself are no longer shown on the MarqueeX screen, so they don't push the dashboard down.
-- Fixed: "Settings saved" could appear before saving had finished, and even when it failed. The confirmation now waits for the result and reports errors.
-- Fixed: Opening the MarqueeX screen with an unknown screen name in the address bar showed a blank page instead of the Dashboard.
+= 0.7.2 – November 22, 2026 =
+* Fixed: Post Marquee (block and Elementor widget) showed a broken image for posts without a featured image, and the Elementor card collapsed to a thin strip. It now shows the placeholder.
+* Fixed: Keyboard users could Tab into the hidden duplicate copy of a marquee (News Ticker, Post Marquee, Text and Image Marquee with links, and their Elementor widgets) — links that screen readers do not announce. Each link is now reached once.
+* Fixed: Screen readers announced every Infinite Slider slide twice.
+* Fixed: The Mobile breakpoint could be saved wider than Tablet, which applied mobile styles to tablets and desktops. The Settings screen now warns, and such a pair falls back to the defaults.
+* Changed: Upgrade links open the public pricing page.
+* Improved: The Dashboard says "Activate Elementor" when Elementor is installed but switched off, instead of "not installed".
+* Improved: The browser tab names the MarqueeX screen you are on.
+* Improved: The opt-in and license screens show the MarqueeX logo and the short name "MarqueeX", which no longer overflows the box.
+* Improved: The Testimonial Marquee quote mark no longer overlaps the first letter.
 
-#### 0.6.2 [October 7, 2026]
-- Changed: New MarqueeX logo in the admin menu and on the settings screen.
-- Improved: The plugin description shown on the Plugins screen and on WordPress.org is shorter and no longer cut off mid-sentence.
-- Improved: Rewritten readme with step-by-step guides, a clearer Free vs Pro comparison and a fuller FAQ, plus a new banner, icon and screenshots for the plugin directory.
+= 0.7.0 – November 12, 2026 =
+* Added: A completely redesigned admin. MarqueeX now opens on a **Dashboard** with an overview of what is switched on, how many published pages use MarqueeX, and a gallery of every widget and block with a small live preview of each.
+* Added: An **Elements** screen for switching each builder and each widget or block on or off, with Enable all / Disable all, and a cleaner **Settings** screen for breakpoints and page-output options.
+* Added: A floating save bar that follows you between screens, with Discard (no reload needed) and a warning before you leave with unsaved changes.
+* Added: A **Free vs Pro** screen with a live demo of Pro's scroll interactions you can drag and scroll yourself, a side-by-side comparison and answers to common questions. Shown only while Pro is not active.
+* Added: An **Our Plugins** screen and a "Recommended for your site" card on the Dashboard, listing other free plugins from WPXERO. Each installs from WordPress.org through WordPress itself and only when you click — nothing is installed automatically, and plugins you already use are never suggested.
+* Added: A one-time note about MarqueeX Pro on the Plugins screen, two weeks after you first add a marquee. It can be snoozed once or dismissed for good.
+* Changed: The admin menu item is now **Dashboard**, with a new **Our Plugins** item beneath it.
+* Changed: Notices from other plugins and WordPress itself are no longer shown on the MarqueeX screen, so they don't push the dashboard down.
+* Fixed: "Settings saved" could appear before saving had finished, and even when it failed. The confirmation now waits for the result and reports errors.
+* Fixed: Opening the MarqueeX screen with an unknown screen name in the address bar showed a blank page instead of the Dashboard.
 
-#### 0.6.1 [October 2, 2026]
-- Added: Manual selection in the **Post Marquee block** (Pro). Set Source to "Manual selection", search by title and pick exactly which posts, pages or products scroll — from any mix of post types — then put them in the order you want. Previously only the Elementor widget could do this. Works with MarqueeX Pro 0.4.0; no Pro update needed. Thanks to @slakbk for the request.
-- Fixed: "Comment Count" in the Post Marquee block's Order By did nothing on the front end and left the editor preview loading forever.
-- Fixed: Order By and Order labels in the Post Marquee block were not translatable.
-- Fixed: The Elementor integration test on the settings screen passed on Elementor 3.0–3.4, where the widgets cannot register. It now uses the same 3.5 minimum as the integration itself.
-- Fixed: A development readme was being included in the plugin ZIP.
-- Improved: The translation template now covers the block editor controls, which it was missing entirely.
+= 0.6.2 – October 7, 2026 =
+* Changed: New MarqueeX logo in the admin menu and on the settings screen.
+* Improved: The plugin description shown on the Plugins screen and on WordPress.org is shorter and no longer cut off mid-sentence.
+* Improved: Rewritten readme with step-by-step guides, a clearer Free vs Pro comparison and a fuller FAQ, plus a new banner, icon and screenshots for the plugin directory.
 
-#### 0.6.0 [September 12, 2026]
-- Added: **Testimonial Marquee** and **Team Members Marquee** Elementor widgets. Both were already written and built; they were simply never registered. They are free.
-- Added: Pro features are now visible rather than hidden. The eight extra Animated Heading animations, the gradient and image-mask text effects, the four extra Word Roller transitions and the Post Marquee card layouts all appear in their dropdowns marked "(Pro)", instead of being silently absent for anyone without a license.
-- Added: A first-run onboarding panel above the settings tabs, pointing you at a first marquee in the block editor or Elementor. Activation lands there; dismiss it and it never comes back.
-- Added: An Elementor version check. MarqueeX needs Elementor 3.5 or newer; below that the widgets never registered, with nothing to say why.
-- Added: Responsive breakpoints are now editable from the Compatibility tab. They already drove the media queries around block CSS but could not be changed from the admin.
-- Removed: Schema.org structured data output. It declared the marquee to be the page's main content and, when the scrolling text contained a word like "sale" or "offer", emitted a schema.org `Offer` for a product that may not exist. Fabricated structured data is a risk to your site's search standing, not ours.
-- Changed: Meta description generation is now off by default and has its own setting. It also no longer writes plugin marketing copy into your page description when there is no marquee text to summarize.
-- Changed: `performance.lazy_loading`, `performance.cache_styles`, `compatibility.theme_compatibility` and `compatibility.plugin_compatibility` were stored and rendered as switches but read by nothing, and the admin drew a "performance score" from them. All removed. `performance.minify_css` is now actually implemented.
-- Fixed: Block detection for the attribution comment and meta description matched only the legacy Infinite Slider, so neither worked with the four blocks added in 0.5.0.
-- Fixed: The Settings submenu opened the default tab instead of Settings.
-- Improved: One upgrade destination and one locked-feature card style across the whole plugin, replacing seven hard-coded links (one stale, one a dead `#`) and three different card designs.
-- Improved: Admin bundle is 102 KB smaller. Source maps are no longer shipped, removing 2.2 MB from the download.
+= 0.6.1 – October 2, 2026 =
+* Added: Manual selection in the **Post Marquee block** (Pro). Set Source to "Manual selection", search by title and pick exactly which posts, pages or products scroll — from any mix of post types — then put them in the order you want. Previously only the Elementor widget could do this. Works with MarqueeX Pro 0.4.0; no Pro update needed. Thanks to @slakbk for the request.
+* Fixed: "Comment Count" in the Post Marquee block's Order By did nothing on the front end and left the editor preview loading forever.
+* Fixed: Order By and Order labels in the Post Marquee block were not translatable.
+* Fixed: The Elementor integration test on the settings screen passed on Elementor 3.0–3.4, where the widgets cannot register. It now uses the same 3.5 minimum as the integration itself.
+* Fixed: A development readme was being included in the plugin ZIP.
+* Improved: The translation template now covers the block editor controls, which it was missing entirely.
 
-#### 0.5.4 [August 23, 2026]
-- Confirmed: Tested up to WordPress 7.1.
+= 0.6.0 – September 12, 2026 =
+* Added: **Testimonial Marquee** and **Team Members Marquee** Elementor widgets. Both were already written and built; they were simply never registered. They are free.
+* Added: Pro features are now visible rather than hidden. The eight extra Animated Heading animations, the gradient and image-mask text effects, the four extra Word Roller transitions and the Post Marquee card layouts all appear in their dropdowns marked "(Pro)", instead of being silently absent for anyone without a license.
+* Added: A first-run onboarding panel above the settings tabs, pointing you at a first marquee in the block editor or Elementor. Activation lands there; dismiss it and it never comes back.
+* Added: An Elementor version check. MarqueeX needs Elementor 3.5 or newer; below that the widgets never registered, with nothing to say why.
+* Added: Responsive breakpoints are now editable from the Compatibility tab. They already drove the media queries around block CSS but could not be changed from the admin.
+* Removed: Schema.org structured data output. It declared the marquee to be the page's main content and, when the scrolling text contained a word like "sale" or "offer", emitted a schema.org `Offer` for a product that may not exist. Fabricated structured data is a risk to your site's search standing, not ours.
+* Changed: Meta description generation is now off by default and has its own setting. It also no longer writes plugin marketing copy into your page description when there is no marquee text to summarize.
+* Changed: `performance.lazy_loading`, `performance.cache_styles`, `compatibility.theme_compatibility` and `compatibility.plugin_compatibility` were stored and rendered as switches but read by nothing, and the admin drew a "performance score" from them. All removed. `performance.minify_css` is now actually implemented.
+* Fixed: Block detection for the attribution comment and meta description matched only the legacy Infinite Slider, so neither worked with the four blocks added in 0.5.0.
+* Fixed: The Settings submenu opened the default tab instead of Settings.
+* Improved: One upgrade destination and one locked-feature card style across the whole plugin, replacing seven hard-coded links (one stale, one a dead `#`) and three different card designs.
+* Improved: Admin bundle is 102 KB smaller. Source maps are no longer shipped, removing 2.2 MB from the download.
 
-#### 0.5.3 [August 1, 2026]
-- Improved: Tags, title and short description optimized for search relevancy on WordPress.org.
+= 0.5.4 – August 23, 2026 =
+* Confirmed: Tested up to WordPress 7.1.
 
-#### 0.5.2 [June 30, 2026]
-- Added: Pause on hover now works together with mouse wheel and drag-to-scroll (Pro) — hovering pauses the auto-scroll while visitors can still scroll the marquee by wheel or drag.
-- Improved: Merged the separate "Mouse Wheel Control" and "Drag to Scroll" block settings into a single "Interactive Scrolling" panel for a cleaner editor experience.
+= 0.5.3 – August 1, 2026 =
+* Improved: Tags, title and short description optimized for search relevancy on WordPress.org.
 
-#### 0.5.1 [June 30, 2026]
-- Fixed: Mouse wheel & drag-to-scroll (Pro) and block styles not loading when a marquee block is embedded into another page via a "page content renderer" — the license flag and Design-tab CSS now load whenever a MarqueeX block renders, regardless of which page outputs it.
+= 0.5.2 – June 30, 2026 =
+* Added: Pause on hover now works together with mouse wheel and drag-to-scroll (Pro) — hovering pauses the auto-scroll while visitors can still scroll the marquee by wheel or drag.
+* Improved: Merged the separate "Mouse Wheel Control" and "Drag to Scroll" block settings into a single "Interactive Scrolling" panel for a cleaner editor experience.
 
-#### 0.5.0 [June 27, 2026]
-- Added: Native Gutenberg blocks for **Text Marquee, Image Marquee, News Ticker, and Post Marquee** — bringing the most popular MarqueeX widgets to the WordPress block editor.
-- Added: Mouse wheel scroll control and drag-to-scroll (Pro) for the Post Marquee block, with sensitivity, momentum, and scroll-sets-direction options.
-- Improved: Post Marquee block pulls featured image, category, title, author, and date dynamically with full post-query controls.
-- Improved: Every block's styles are now scoped to its own block class so they can never conflict with the matching Elementor widget on the same page.
-- Fixed: Post Marquee block editor preview error and trailing empty space at the end of the marquee loop.
+= 0.5.1 – June 30, 2026 =
+* Fixed: Mouse wheel & drag-to-scroll (Pro) and block styles not loading when a marquee block is embedded into another page via a "page content renderer" — the license flag and Design-tab CSS now load whenever a MarqueeX block renders, regardless of which page outputs it.
+
+= 0.5.0 – June 27, 2026 =
+* Added: Native Gutenberg blocks for **Text Marquee, Image Marquee, News Ticker, and Post Marquee** — bringing the most popular MarqueeX widgets to the WordPress block editor.
+* Added: Mouse wheel scroll control and drag-to-scroll (Pro) for the Post Marquee block, with sensitivity, momentum, and scroll-sets-direction options.
+* Improved: Post Marquee block pulls featured image, category, title, author, and date dynamically with full post-query controls.
+* Improved: Every block's styles are now scoped to its own block class so they can never conflict with the matching Elementor widget on the same page.
+* Fixed: Post Marquee block editor preview error and trailing empty space at the end of the marquee loop.
 
 Older releases are listed in [changelog.txt](https://plugins.trac.wordpress.org/browser/marqueex/trunk/changelog.txt).

@@ -5,7 +5,7 @@
  * Description:       Add a marquee, news ticker, logo carousel or scrolling post slider in Elementor or the block editor. 8 widgets, 5 blocks, lightweight CSS animation.
  * Requires at least: 6.0
  * Requires PHP:      7.4
- * Version:           0.7.0
+ * Version:           0.7.2
  * Author:            WPXERO
  * Author URI:        https://wpxero.com
  * License:           GPL-2.0-or-later
@@ -113,7 +113,7 @@ class MarqueeX {
         define('MARQUEEX_FILE', __FILE__);
         define('MARQUEEX_NAMESPACE', 'MARQUEEX');
         define('MARQUEEX_SLUG', 'marqueex');
-        define('MARQUEEX_VERSION', '0.7.0');
+        define('MARQUEEX_VERSION', '0.7.2');
         define('MARQUEEX_DIR_PATH', plugin_dir_path(__FILE__));
         define('MARQUEEX_ADMIN_URL', plugin_dir_url(__FILE__));
         define('MARQUEEX_WP_VERSION', (float) get_bloginfo('version'));
@@ -204,6 +204,13 @@ class MarqueeX {
                     // the public pricing page instead of the in-admin screen.
                     $this->freemius->add_filter('pricing_url', function () {
                         return Core\Upsell::PRICING_URL;
+                    });
+
+                    // The header name is 87 characters of directory search
+                    // terms; on the opt-in and license screens it overflows
+                    // the card. Show the product name there instead.
+                    $this->freemius->add_filter('plugin_title', function () {
+                        return 'MarqueeX';
                     });
 
                     // Signal that Freemius SDK is initiated

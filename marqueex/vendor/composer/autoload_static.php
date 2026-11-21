@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit353e953e3ed4de1362d6f0062d5dded4
+class ComposerStaticInit770525327a9ed0b4199b334edaa8a6e8
 {
     public static $files = array (
         '8d50dc88e56bace65e1e72f6017983ed' => __DIR__ . '/..' . '/freemius/wordpress-sdk/start.php',
@@ -58,6 +58,7 @@ class ComposerStaticInit353e953e3ed4de1362d6f0062d5dded4
         'Wpxero\\Marqueex\\Traits\\MarqueeSource' => __DIR__ . '/../..' . '/includes/Traits/MarqueeSource.php',
         'Wpxero\\Marqueex\\Traits\\PostQuery\\PostQueryControls' => __DIR__ . '/../..' . '/includes/Traits/PostQuery/PostQueryControls.php',
         'Wpxero\\Marqueex\\Traits\\Singleton' => __DIR__ . '/../..' . '/includes/Traits/Singleton.php',
+        'Wpxero\\Marqueex\\Utils\\Markup' => __DIR__ . '/../..' . '/includes/Utils/Markup.php',
         'Wpxero\\Marqueex\\Utils\\MetaDescription' => __DIR__ . '/../..' . '/includes/Utils/MetaDescription.php',
         'Wpxero\\Marqueex\\Utils\\SeoImprovements' => __DIR__ . '/../..' . '/includes/Utils/SeoImprovements.php',
     );
@@ -65,9 +66,9 @@ class ComposerStaticInit353e953e3ed4de1362d6f0062d5dded4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit353e953e3ed4de1362d6f0062d5dded4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit353e953e3ed4de1362d6f0062d5dded4::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit353e953e3ed4de1362d6f0062d5dded4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit770525327a9ed0b4199b334edaa8a6e8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit770525327a9ed0b4199b334edaa8a6e8::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit770525327a9ed0b4199b334edaa8a6e8::$classMap;
 
         }, null, ClassLoader::class);
     }

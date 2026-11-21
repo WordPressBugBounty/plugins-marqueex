@@ -51,6 +51,8 @@ foreach ($posts as $post) {
 
     $image     = wp_get_attachment_image_src(get_post_thumbnail_id($post_id), 'large');
     $image_src = $image ? $image[0] : $placeholder;
+    // The placeholder is decorative; the card title already names the post.
+    $image_alt = $image ? $title : '';
 
     $category_html = '';
     if ($show_category) {
@@ -69,7 +71,8 @@ foreach ($posts as $post) {
     ?>
     <<?php echo $item_tag; // phpcs:ignore ?> class="marqueex-item"<?php echo $item_open; // phpcs:ignore ?>>
         <div class="marqueex-item-box">
-            <img class="marqueex-img" src="<?php echo esc_url($image_src); ?>" alt="<?php echo esc_attr($title); ?>" loading="lazy">
+            <?php // The placeholder is a data: URI; plain esc_url() strips that protocol and empties src. ?>
+            <img class="marqueex-img" src="<?php echo esc_url($image_src, ['http', 'https', 'data']); ?>" alt="<?php echo esc_attr($image_alt); ?>" loading="lazy">
             <div class="marqueex-content">
                 <?php if ($show_category && $category_html) : ?>
                     <div class="marqueex-category"><?php echo $category_html; // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
@@ -155,7 +158,7 @@ $wrapper_attributes = get_block_wrapper_attributes($wrapper_args);
             <?php echo $track_html; // phpcs:ignore WordPress.Security.EscapeOutput ?>
         </div>
         <div aria-hidden="true" class="marqueex-marquee-track">
-            <?php echo $track_html; // phpcs:ignore WordPress.Security.EscapeOutput ?>
+            <?php echo \Wpxero\Marqueex\Utils\Markup::unfocusable($track_html); // phpcs:ignore WordPress.Security.EscapeOutput ?>
         </div>
     </div>
 </div>

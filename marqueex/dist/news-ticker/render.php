@@ -171,7 +171,7 @@ $wrapper_attributes = get_block_wrapper_attributes($wrapper_args);
             <?php echo $track_html; // phpcs:ignore WordPress.Security.EscapeOutput ?>
         </div>
         <div aria-hidden="true" class="marqueex-marquee-track">
-            <?php echo $track_html; // phpcs:ignore WordPress.Security.EscapeOutput ?>
+            <?php echo \Wpxero\Marqueex\Utils\Markup::unfocusable($track_html); // phpcs:ignore WordPress.Security.EscapeOutput ?>
         </div>
     </div>
 

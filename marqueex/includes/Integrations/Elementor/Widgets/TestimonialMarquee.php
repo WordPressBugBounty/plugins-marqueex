@@ -425,7 +425,11 @@ class TestimonialMarquee extends Widget_Base {
                     <?php $this->render_testimonials_content($settings); ?>
                 </div>
                 <div aria-hidden="true" class="marqueex-marquee-track">
-                    <?php $this->render_testimonials_content($settings); ?>
+                    <?php
+                    ob_start();
+                    $this->render_testimonials_content($settings);
+                    echo \Wpxero\Marqueex\Utils\Markup::unfocusable(ob_get_clean()); // phpcs:ignore WordPress.Security.EscapeOutput -- escaped by render_testimonials_content()
+                    ?>
                 </div>
             </div>
         </div>
